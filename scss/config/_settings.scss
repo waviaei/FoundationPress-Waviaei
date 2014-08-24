@@ -210,6 +210,10 @@ $body-font-family: $font-family-sans, $font-family-gothic, sans-serif;
 // $h1-font-size: rem-calc(44);
 // $h2-font-size: rem-calc(37);
 // $h3-font-size: rem-calc(27);
+$h1-font-size: rem-calc(28);
+$h2-font-size: rem-calc(23);
+$h3-font-size: rem-calc(21);
+$h4-font-size: rem-calc(20);
 // $h4-font-size: rem-calc(23);
 // $h5-font-size: rem-calc(18);
 // $h6-font-size: 1rem;
@@ -226,8 +230,8 @@ $body-font-family: $font-family-sans, $font-family-gothic, sans-serif;
 // $subheader-line-height: 1.4;
 // $subheader-font-color: scale-color($header-font-color, $lightness: 35%);
 // $subheader-font-weight: $font-weight-normal;
-// $subheader-top-margin: .2rem;
-// $subheader-bottom-margin: .5rem;
+// $subheader-top-margin: .4rem;
+$subheader-bottom-margin: 1rem;
 
 // A general <small> styling
 // $small-font-size: 60%;
@@ -264,7 +268,7 @@ $body-font-family: $font-family-sans, $font-family-gothic, sans-serif;
 // $hr-border-width: 1px;
 // $hr-border-style: solid;
 // $hr-border-color: $gainsboro;
-// $hr-margin: rem-calc(20);
+$hr-margin: rem-calc(48);
 
 // We use these to style lists
 // $list-font-family: $paragraph-font-family;

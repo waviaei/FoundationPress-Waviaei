@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div class="row">
-	<div class="small-12 large-8 columns" role="main">
+	<div class="small-12 large-8 large-offset-2 columns" role="main">
 
 	<?php if ( have_posts() ) : ?>
 
@@ -28,7 +28,9 @@
 
 	<?php do_action('foundationPress_after_content'); ?>
 
-	</div>
 	<?php get_sidebar(); ?>
+
+	</div>
+
 </div>
 <?php get_footer(); ?>
