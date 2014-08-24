@@ -4,7 +4,7 @@ Template Name: 8 Width Middle
 */
 get_header(); ?>
 <div class="row">
-	<div class="small-12 large-8 large-offset-2 columns" role="main">
+	<div class="small-12 medium-8 medium-offset-2 columns" role="main">
 
 	<?php /* Start loop */ ?>
 	<?php while (have_posts()) : the_post(); ?>
