@@ -99,7 +99,7 @@ $include-html-global-classes: $include-html-classes;
 // We use these to control various global styles
 // $body-bg: $white;
 // $body-font-color: $jet;
-$body-font-family: $font-family-sans, $font-family-jp, sans-serif;
+$body-font-family: $font-family-jp, sans-serif;
 // $font-weight-normal:normal;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
@@ -251,6 +251,7 @@ $subheader-bottom-margin: 1rem;
 // We use these to style <code> tags
 // $code-color: $oil;
 // $code-font-family: Consolas, 'Liberation Mono', Courier, monospace;
+$code-font-family: $font-family-mono;
 // $code-font-weight: $font-weight-normal;
 // $code-background-color: scale-color($secondary-color, $lightness: 70%);
 // $code-border-size: 1px;
