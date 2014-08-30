@@ -10,7 +10,10 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header>
 		<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-		<?php FoundationPress_entry_meta(); ?>
+		<p>
+					<time class="updated" datetime="<?php get_the_time('c'); ?>"><?php the_time('Y-m-d'); ?></time>
+					  |  <?php the_category(', '); ?>
+				</p>
 	</header>
 	<div class="entry-content">
 		<?php the_content(__('Continue reading...', 'FoundationPress')); ?>

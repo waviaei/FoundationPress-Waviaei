@@ -21,7 +21,7 @@ require_once('library/menu-walker.php');
 require_once('library/widget-areas.php');
 
 // Return entry meta information for posts
-require_once('library/entry-meta.php');
+// require_once('library/entry-meta.php');
 
 // Enqueue scripts
 require_once('library/enqueue-scripts.php');

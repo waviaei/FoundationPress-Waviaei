@@ -8,7 +8,10 @@
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 			<header>
 				<h1 class="entry-title"><?php the_title(); ?></h1>
-				<?php FoundationPress_entry_meta(); ?>
+				<p>
+					<time class="updated" datetime="<?php get_the_time('c'); ?>"><?php the_time('Y-m-d'); ?></time>
+					  |  <?php the_category(', '); ?>
+				</p>
 			</header>
 			<?php do_action('foundationPress_post_before_entry_content'); ?>
 			<div class="entry-content">
