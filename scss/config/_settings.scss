@@ -99,7 +99,7 @@ $include-html-global-classes: $include-html-classes;
 // We use these to control various global styles
 // $body-bg: $white;
 // $body-font-color: $jet;
-$body-font-family: $font-family-jp, sans-serif;
+$body-font-family: $font-family-sans, $font-family-gothic, sans-serif;
 // $font-weight-normal:normal;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
@@ -114,7 +114,7 @@ $body-font-family: $font-family-jp, sans-serif;
 // $last-child-float: $opposite-direction;
 
 // We use these as default colors throughout
-$primary-color: #008CBA;
+// $primary-color: #008CBA;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -201,7 +201,6 @@ $primary-color: #008CBA;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
 // $header-font-color: $jet;
-$header-font-color: $primary-color;
 // $header-line-height: 1.4;
 // $header-top-margin: .2rem;
 // $header-bottom-margin: .5rem;
